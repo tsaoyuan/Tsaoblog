@@ -30,7 +30,9 @@ url: "https://tsaoyuan.github.io" # the base hostname & protocol for your site, 
 github_username:  tsaoyuan
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "dark"
+
 plugins:
   - jekyll-feed
 
