@@ -23,4 +23,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
+exclude:
+    - node_modules
+
 
