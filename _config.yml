@@ -13,9 +13,11 @@ url: "https://tsaoyuan.github.io" # the base hostname & protocol for your site, 
 # twitter_username: jekyllrb
 github_username: tsaoyuan
 
+github: [metadata]
+
 # Build settings
 remote_theme: mmistakes/minimal-mistakes@4.24.0
-minimal_mistakes_skin: "dark"
+minimal_mistakes_skin: "air"
 
 plugins:
   - jekyll-feed
