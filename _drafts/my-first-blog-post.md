@@ -14,3 +14,8 @@ title:  "Welcome to my first post"
 - _drafts內的檔案, 不顯示在 github pages上; 除非使用 jekyll s \--drafts 在本機端檢視
 - 草稿顯示的url, 會是test 當日的YYYY-mm-dd
 - 參考： <https://youtu.be/X8jXkW3k2Jg>
+
+### 新增圖片方法
+{% include figure image_path="/assets/images/gem-env-view-gem-instal-in.jpg" alt="this is a placeholder image" caption="This is a figure caption." %}
+
+  
