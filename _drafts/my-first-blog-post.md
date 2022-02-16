@@ -5,6 +5,8 @@ title:  "Welcome to my first post"
 
 # drafts (草稿) content 
 
+### 啟動local jekyll
+- bundle exec jekyll serve.
 ### 檢視草稿方式 (本機端檢視)：
 - jekyll serve \--drafts 
 - jekyll s \--drafts
@@ -17,5 +19,9 @@ title:  "Welcome to my first post"
 
 ### 新增圖片方法
 {% include figure image_path="/assets/images/gem-env-view-gem-instal-in.jpg" alt="this is a placeholder image" caption="This is a figure caption." %}
+### 新增code區塊
+{% highlight ruby %}
+
+{% endhighlight %}
 
   
