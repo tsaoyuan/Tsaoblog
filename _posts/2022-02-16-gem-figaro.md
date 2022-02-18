@@ -25,7 +25,7 @@ permalink: /:categories
 # 開始使用 Figaro，在gemfile新增：
 gem 'figaro', '~> 1.2'
 
-# 在cli執行，載入 figaro
+# 在CLI執行，載入 figaro
 bundle exec figaro install
 {% endhighlight %}
 
@@ -44,11 +44,11 @@ bundle exec figaro install
 紅框處: developer 命名， application.yml 和 pusher.rb 的 ENV名稱一致。( 別打錯字 ) <br>
 黃框處: 官方提供的名稱 (這裡的官方是 pusher) <br>
 * * *
-既然使用到ENV，雜們就來檢視專案內的ENV吧！
-檢視 ENV cli
+既然使用到ENV，咱們就來檢視專案內的ENV吧！
+檢視 ENV CLI
 
 {% highlight ruby %}
-# 以下cli 可執行在 irb 和 rails c
+# 以下CLI 可執行在 irb 和 rails c
 # irb => 檢視 irb (Interactive Ruby) 的互動式命令列
 # rails c => 檢視 rails 專案
 # 檢視環境變數 "GEM_HOME" 路徑
@@ -73,14 +73,14 @@ ENV.keys
 # 在 gemfile 新增
 gem 'pusher'
 
-# 在cli 輸入
+# 在CLI 輸入
 bundle instal
 # 將 pusher 的 gem 載入 rails 專案
 {% endhighlight %}
 
 {% include figure image_path="/assets/images/起手勢-figaro instal pusher.png
 " alt="this is a image instal pusher" %}
-### 使用 cli 檢視 ENV 的狀況
+### 使用 CLI 檢視 ENV 的狀況
 {% include figure image_path="/assets/images/起手勢-figaro rails console success.png
 " alt="this is a image view rails ENV" %}
 ### 建立一個application.yml範例檔，當作秘密資訊的格式檔，檔名: application.yml.example
