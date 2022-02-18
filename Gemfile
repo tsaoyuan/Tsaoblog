@@ -4,7 +4,8 @@ gem "minimal-mistakes-jekyll"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
-
+  gem 'jekyll-paginate', "~> 1.1"
+  
   # Remote theme method
   gem "github-pages"
   gem "jekyll-include-cache"
