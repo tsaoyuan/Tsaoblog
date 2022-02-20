@@ -6,7 +6,7 @@ title:  "Welcome to my first post"
 # drafts (草稿) content 
 
 ### 啟動local jekyll
-- bundle exec jekyll serve.
+- bundle exec jekyll serve
 ### 檢視草稿方式 (本機端檢視)：
 - jekyll serve \--drafts 
 - jekyll s \--drafts

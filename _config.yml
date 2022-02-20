@@ -1,9 +1,6 @@
+logo: #"/assets/images/88x88-起手勢-figaro application.yml 架構.png"       
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
 title: Tsao blog
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -19,10 +16,15 @@ github: [metadata]
 remote_theme: mmistakes/minimal-mistakes@4.24.0
 minimal_mistakes_skin: "air"
 
+# Plugins (previously gems:)
 plugins:
+  - jekyll-paginate
   - jekyll-feed
   - jekyll-include-cache
-
+# Reading Files
+include:
+  - .htaccess
+  - _pages
 exclude:
     - node_modules
 
