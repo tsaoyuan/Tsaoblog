@@ -24,4 +24,7 @@ title:  "Welcome to my first post"
 
 {% endhighlight %}
 
+### 遇到html element + \
+### markdown 無法使用 空白 and Tab 縮排
+
   
