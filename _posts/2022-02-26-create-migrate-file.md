@@ -27,3 +27,21 @@ rails g model model_name
 不管你使用 model_name 是單數名詞 or 複數名詞，在 app/models 底下，產生 model_name.rb ，和 db/migrate 底下，產生 YYYYMMDDHHMMSS_create_model_names.rb 
 
 ***
+
+### 手動建立 migrate file
+{% highlight ruby %}
+# CLI
+rails generate migration whatever_you_want_file_name
+# migrate file 檔名若有空白，請使用底線區隔兩單字
+# migrate file 有意義的檔名，維護會相對容易
+{% endhighlight %}
+
+{% include figure image_path="/assets/images/step0 Add new Migration.jpg" alt="create migrate file" %}
+
+參考：<br>
+**[Active Record Migrations](https://edgeguides.rubyonrails.org/active_record_migrations.html)**<br>
+[為你自己學 Ruby on Rails](https://railsbook.tw/chapters/17-model-migration) 
+
+備註：<br>
+Rails 6.1.4.6 <br>
+ruby 2.7.4p191 (2021-07-07 revision a21a3b7d23)
