@@ -5,8 +5,8 @@ excerpt: "關於我的大小事"
 layout: single
 sitemap: true
 header:
-  image: /assets/images/
-  caption: ""
+  image: /assets/images/morning-Luna.jpg
+  caption: "Luna的背影"
 ---
 
 ## 簡介
