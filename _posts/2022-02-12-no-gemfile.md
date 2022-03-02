@@ -1,7 +1,7 @@
 ---
 layout: posts
 title:  "no gemfile"
-categories: RoR
+categories: RoR no-gemfile
 permalink: /:categories
 ---
 ### 沒有gemfile，也可使用套件 (Gem)！前提是，確定在正確的ruby-版號 （正確的位置），確定有 gem instal 該套件。

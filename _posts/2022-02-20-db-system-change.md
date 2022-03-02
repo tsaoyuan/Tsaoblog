@@ -1,7 +1,7 @@
 ---
 layout: posts
 title:  "快速變更 database 設定"
-categories: RoR
+categories: RoR fast-change-database
 permalink: /:categories
 ---
 ### 除了new專案前，預設 database 為 postgresql 之外，還有其他方法嗎？

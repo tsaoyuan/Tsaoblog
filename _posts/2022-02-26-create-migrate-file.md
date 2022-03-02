@@ -1,7 +1,7 @@
 ---
 layout: posts
 title:  "建立 migrate file 方法"
-categories: Migration
+categories: Create Migration 
 permalink: /:categories
 ---
 建立 migrate file 途徑有很多，這裡介紹其中的兩個方法：
