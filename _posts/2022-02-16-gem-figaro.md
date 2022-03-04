@@ -1,7 +1,7 @@
 ---
 layout: posts
 title:  "Figaro"
-categories: Gem
+categories: RoR Gem-Figaro
 permalink: /:categories
 ---
 啟動專案服務時，往往需要透過 API 和 金鑰等秘密資訊，進一步啟動專案的第三方服務。

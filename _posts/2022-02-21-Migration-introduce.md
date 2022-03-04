@@ -1,7 +1,7 @@
 ---
 layout: posts
 title:  "Migration 簡介"
-categories: Migration
+categories: introduce Migration 
 permalink: /:categories
 ---
 Rather than write schema modifications in pure SQL, migrations allow you to use a Ruby DSL to describe changes to your tables. — Rails guide

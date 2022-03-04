@@ -1,7 +1,7 @@
 ---
 layout: posts
 title:  "Ruby的 { } "
-categories: Ruby
+categories: Ruby block
 permalink: /:categories
 ---
 Ruby的世界裡，幾乎所有的東西都是**物件**，block例外! 
