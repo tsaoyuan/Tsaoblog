@@ -44,6 +44,12 @@ rails db:schema:load
 有人直接操作 database 新增欄位，而不是透過  rails db:migrate 變更 schema.rb，產生兩個欄位的落差，這時只要執行  rails db:migrate ，就可以在  schema.rb，將缺少的兩個欄位補回來。
 
 ***
+註：
+
+- migrate file 意指 Active Record Migrations 產生的檔案
+
+- 執行 rails db:migrate 動作後，更新 schema.rb 
+
 參考：
 
 [introduce schema in Rails Guides](https://edgeguides.rubyonrails.org/active_record_migrations.html)
